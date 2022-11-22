@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function A1() {
+            document.getElementById("lo").innerHTML="Lương Văn Mạnh";
+        }
+    </script>
+</head>
+<body>
+    <h1>Thẻ script</h1>
+    <p id="hello"></p>
+    <script>
+        document.getElementById("hello").innerHTML="Luong Van Manh"
+    </script><hr>
+    <h1>Head</h1>
+    <p id="lo">Hello</p>
+    <button type="button" onclick="A1()">Click</button><hr>
+    <h1>Từ tệp js bên ngoài</h1>
+    <p id="b">Hello</p>
+    <button type="button" onclick="thaydoi()">Click</button>
+    <script src="/wherejs.js"></script>
+
+
+
+</body>
+</html>
