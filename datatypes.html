@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Booleans</h1>
+    <p id="demo"></p>
+    <script>
+        var x = 5;
+        var y = 5;
+        var z = 6;
+        document.getElementById("demo").innerHTML = 
+        (x == y) + "<br>" + (x == z)
+    </script><hr>
+    <h1>Mảng javascript</h1>
+    <p id="demo1"></p>
+    <script>
+        var phong601 = ["manh", "dai", "quan"];
+        document.getElementById("demo1").innerHTML = phong601[0];
+    </script>
+    <hr>
+    <h1>Đối tượng javascript</h1>
+    <p id="demo2"></p>
+    <script>
+        var manh = {
+            họ : "Lương",
+            tên : "Mạnh",
+            số : "4",
+        }
+        document.getElementById("demo2").innerHTML = 
+        manh.họ + " " + manh.tên + " " + manh.số
+    </script>
+</body>
+</html>
